@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <style>
+            *{
+            margin: 0;
+         }
+        .coordonnees{
+            position:relative;
+            height: 100vh;
+            width:100%;
+            
+            
+        }
+        .coordonnees video{
+            position:absolute;
+            min-width:100%;
+            min-height: 100%;
+            z-index:-100
+            }
+            h1,p,form{
+                   text-align: center;
+                }
+                h1{
+                    padding-bottom: 60px;
+                    padding-top: 60px;
+                    color: darksalmon;
+
+                }
+                section{
+                    margin-bottom: 40px;
+                    font-size: x-large;
+                    color: darksalmon;
+                }
+                
+                
+            
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="coordonnees">
+        
+            
+            <video loop muted preload="auto" autoplay   src="C:\Users\user\Downloads\hiver-6683.mp4" ></video>
+            <h1>Me Contacter</h1>
+            <p style="padding-bottom: 20px;font-size: x-large;color: darksalmon;">Pour toute collaboration,veuillez remplir le formulaire ci-dessous</p>
+            <form >
+                <section>
+                <label >Nom et prénom</label>
+                <input type="text" name="nom et prénom"/>
+                </section>
+                <section>
+                <label style="display: inline;">E-mail</label>
+                <input type="email" name="email"/>
+                </section>
+                <section>
+                <label>Téléphone</label>
+                <input type="number" name="Téléphone" value="123456789"/>
+                </section>
+                <section>
+                 <label>Adresse</label>
+                <input type="text" name="adresse"/>
+                </section>
+                <button type="submit">submit</button>
+                
+                <button type="reset">Reset</button>
+                
+
+            </form>
+            <br>
+            <textarea name="Message" cols="50" rows="10" style="margin-left:40%;margin-bottom: 30px;" >
+             Envoyer votre message
+            </textarea>
+            <button type="submit">submit</button>
+            
+        </div>
+       
+        
+
+    </body>
+</html>
